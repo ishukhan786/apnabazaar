@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PakDeal Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">PakDeal</div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search items..." />
+      <button onclick="searchItems()">Search</button>
+    </div>
+    <button class="post-btn">Post Ad</button>
+  </header>
+
+  <section class="hero">
+    <h1>Buy & Sell Across Pakistan</h1>
+    <p>Cars, bikes, mobiles, houses, and more.</p>
+  </section>
+
+  <section class="categories">
+    <div class="category">Cars</div>
+    <div class="category">Bikes</div>
+    <div class="category">Mobiles</div>
+    <div class="category">Houses</div>
+    <div class="category">Electronics</div>
+  </section>
+
+  <section class="listings" id="listings">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Car" />
+      <h3>Toyota Corolla</h3>
+      <p class="price">Rs. 2,500,000</p>
+      <p>Karachi</p>
+      <button>Contact Seller</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Bike" />
+      <h3>Honda CG 125</h3>
+      <p class="price">Rs. 180,000</p>
+      <p>Lahore</p>
+      <button>Contact Seller</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Mobile" />
+      <h3>iPhone 13</h3>
+      <p class="price">Rs. 150,000</p>
+      <p>Islamabad</p>
+      <button>Contact Seller</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
